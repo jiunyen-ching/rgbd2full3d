@@ -1,14 +1,14 @@
 % Download basic data
 if ~exist('processed_data')
-  !wget -r -l1 -np "http://aqua.cs.uiuc.edu/processed_data" -P . -A "*.mat" --no-host-directories --no-verbose
+  % drive: https://drive.google.com/file/d/1ffn1iDqX_Tvd-W4YA1woAUy4g_lhMIxH/view?usp=sharing
 end
 
 if ~exist('mat')
-  !wget -r -l1 -np "http://aqua.cs.uiuc.edu/mat" -P . -A "*.mat" --no-host-directories --no-verbose
+  % drive: https://drive.google.com/file/d/1Rs8hbtCf4gz8yy51mfaw8PusHxDe3ZPf/view?usp=sharing
 end
 
 if ~exist('config')
-  !wget -r -l1 -np "http://aqua.cs.uiuc.edu/config" -P . -A "*.mat" --no-host-directories --no-verbose
+  % drive: https://drive.google.com/file/d/125UCqiOblSxKq4J0i5WxIBNf0onK5sCS/view?usp=sharing
 end
 
 !mkdir cache
